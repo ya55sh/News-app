@@ -1,0 +1,100 @@
+
+
+.parent{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../assests/Background_image/world2.jpg);
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.App-heading{
+    font-size: 30px;
+    color: white;
+    text-shadow: 5px 3px 10px black;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+h3{
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    border-radius: 7px;
+    margin-top: 10px;
+    padding: 3px 5px;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.849);
+    outline: none
+    border none;
+}
+button{
+    border-radius: 7px;
+    width: fit-content;
+    padding: 3px 20px 5px 20px;
+    letter-spacing: .5px;
+    display: flex;
+    margin: 20px auto 0 auto;
+    box-shadow: 0px 0px 5px white;
+    border: none;
+}
+
+button:hover{
+    background-color: rgba(71, 119, 113, 0.445);
+    color: #ffff;
+}
+
+.Account-and-Signup{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 10px 0;
+}
+
+.Link-signup{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+    text-shadow: 0px 0px 5px white;
+}
+.Link-signup:hover{
+    color: rgb(4, 243, 231);
+}
+
+.Forgotpassword{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.Link-forgotpassword{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    text-shadow: 0px 0px 5px white;
+}
+
+.Link-forgotpassword:hover{
+    color: rgb(20, 238, 238);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    height:fit-content;
+    width: 30vw;
+    min-width: 300px;
+    justify-content: center;
+    background-color: rgba(71, 87, 85, 0.473);
+    padding: 30px;
+    border-radius: 10px;
+}
